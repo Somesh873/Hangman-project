@@ -1,2 +1,3 @@
-# Hangman project 2
+# Hangman project 
+A Word guessing game!
  
