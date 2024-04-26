@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #4e4376, #2b5876, #513a78, #4361ee); /* Purple gradient background */
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px; /* Larger title size */
+    margin-bottom: 20px;
+  }
+  
+  #word-container {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #guess-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #guess-input {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  #guess-input:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+  }
+  
+  #guess-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #guess-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #feedback-container {
+    font-size: 20px;
+  }
+  
+  #hangman-container {
+    font-family: monospace;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
